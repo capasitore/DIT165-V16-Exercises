@@ -12,40 +12,40 @@
 
 #define MAX_LENGTH 20
 
-char src[MAX_LENGTH];
+void copyString(char [], char []);
 
-int main(int argc, char *argv[])
-{
+int main() {
+	char src[MAX_LENGTH];
+	char destination[MAX_LENGTH];
 
-    char destination[MAX_LENGTH];
+	//A
+	printf("A)  (using strcpy) Enter an string using max %d characters: \n", MAX_LENGTH);
+	fgets(src, MAX_LENGTH, stdin);
+	strcpy(destination, src);
+	 printf("Source string:  %s\n", src);
+	 printf("Destination string: %s\n", destination);
 
+	//B
+	char src2[MAX_LENGTH];
+	char destination2[MAX_LENGTH];
+	printf("B) Enter your sting using max %d characters: \n", MAX_LENGTH);
+	gets(src2);
 
-// A)
-    printf("A) (using strcpy) Enter a string with max %d characters: \n", MAX_LENGTH);
-    fgets(src, MAX_LENGTH, stdin);
-    strcpy(destination, src);
-    printf("The output is: %s\n", destination);
+	copyString(destination2, src2);
 
+	   printf("Source string:      %s\n", src2);
+	   printf("Destination string: %s\n", destination2);
 
-// B) TODO
-    copyString(src);
-
-   // printf("B) (function) Enter a string with max %d characters: \n", MAX_LENGTH);
-
-    return 0;
-
+	return 0;
 }
 
+void copyString(char destination2[], char src2[]){
+	int i = 0;
 
-void copyString(char *src) {
-    char cpy[MAX_LENGTH];
-    int i;
-    while(src[i] != '\0'){
-
-        cpy[i] = src[i];
-        i++;
-    }
-
-    printf("B) (function)The output is: %s\n", cpy);
+	while(src2[i] != '\0'){
+		destination2[i] = src2[i];
+		i++;
+	}
+	destination2[i] = '\0';
+	printf("test");
 }
-

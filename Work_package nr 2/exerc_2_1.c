@@ -10,7 +10,7 @@
 // b) A function void copyString(…) not using any libray function.
 
 
-#define MAX_LENGTH 50
+#define MAX_LENGTH 20
 
 char src[MAX_LENGTH];
 

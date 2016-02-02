@@ -58,8 +58,7 @@ void count_frequency(int *table, int *frequency) {
 }
 
 void draw_histogram(int *frequency) {
-    int i = 0;
-    for (; i < MAXNUMBER; i++) {
+    for (int 1 = 0; i < MAXNUMBER; i++) {
         if (frequency[i] != 0) {
             printf("\t%d\t", i);
             int j = 0;

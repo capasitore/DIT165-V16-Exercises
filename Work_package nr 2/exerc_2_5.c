@@ -1,4 +1,4 @@
-/ * ====================================
+/* ====================================
 File name: exerc_2_5.c (or cpp)
 Date: 2016-01-27
 Group Number: 33
@@ -8,7 +8,7 @@ Pooria Balavi
 Andreas Aronsson
 Demonstration code: [<Ass code 1-4> <abc>]
 Important , No code no bonus !
-====================================== * /
+====================================== */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -58,7 +58,8 @@ void count_frequency(int *table, int *frequency) {
 }
 
 void draw_histogram(int *frequency) {
-    for (int 1 = 0; i < MAXNUMBER; i++) {
+    int i = 0;
+    for (; i < MAXNUMBER; i++) {
         if (frequency[i] != 0) {
             printf("\t%d\t", i);
             int j = 0;

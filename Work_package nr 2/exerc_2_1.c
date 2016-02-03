@@ -49,3 +49,4 @@ void copyString(char destination2[], char src2[]){
 	destination2[i] = '\0';
 	printf("test");
 }
+

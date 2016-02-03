@@ -6,7 +6,7 @@ Members that contributed:
 Darja Linkova
 Pooria Balavi
 Andreas Aronsson
-Demonstration code: [<Ass code 1-4> <abc>]
+Demonstration code: 85215
 Important , No code no bonus !
 ====================================== */
 
@@ -14,7 +14,7 @@ Important , No code no bonus !
 #include <stdlib.h>
 #include <time.h>
 
-#define MAX 100
+#define MAX 10
 #define MAXNUMBER 20
 
 

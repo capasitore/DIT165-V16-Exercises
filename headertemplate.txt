@@ -1,4 +1,4 @@
-/ * ====================================
+/* ====================================
 File name: exerc_x_y.c (or cpp)
 Date: 2016-mm-dd
 Group Number: 33
@@ -8,4 +8,4 @@ Pooria Balavi
 Andreas Aronsson
 Demonstration code: [<Ass code 1-4> <abc>]
 Important , No code no bonus !
-====================================== * /
+====================================== */

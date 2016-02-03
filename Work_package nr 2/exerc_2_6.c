@@ -6,9 +6,11 @@
  Darja Linkova
  Pooria Balavi
  Andreas Aronsson
- Demonstration code: [<Ass code 1-4> <abc>]
+ Demonstration code: 86544
  Important , No code no bonus !
  ====================================== */
+
+//print when full
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -44,7 +46,7 @@ int output(int list[], int max) {
 	for (int i = 0; i < max - 1; i++) {
 		if (list[i] != -1) {
 			list[i] = list[i + 1];
-		}
+		} 
 	}
 	list[max - 1] = -1;
 	return 0;
@@ -63,9 +65,14 @@ int main() {
 	int max = MAX;
 	initQue(que, max);
 	print(que);
+	output(que, max);
+	print(que);
 	input(que, 3, max);
 	input(que, 4, max);
 	input(que, 5, max);
+	input(que, 8, max);
+	input(que, 8, max);
+	input(que, 8, max);
 	print(que);
 	input(que, 8, max);
 	print(que);

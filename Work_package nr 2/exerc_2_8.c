@@ -1,8 +1,14 @@
-/*
- *  File    : nim.c
- *  Program : Nim game
- *  Author  : ...
- */
+/* ====================================
+File name: exerc_2_5.c (or cpp)
+Date: 2016-01-27
+Group Number: 33
+Members that contributed:
+Darja Linkova
+Pooria Balavi
+Andreas Aronsson
+Demonstration code: 88147
+Important , No code no bonus !
+====================================== */
 
 #include<stdio.h>
 #include<stdlib.h>

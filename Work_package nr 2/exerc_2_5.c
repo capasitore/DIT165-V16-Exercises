@@ -17,6 +17,8 @@ Important , No code no bonus !
 #define MAX 100
 #define MAXNUMBER 20
 
+
+// print out random numbers array
 // ------ Function declaration ---------- Updated 2014 after wp2
 
 void create_random(int *tab);
@@ -46,7 +48,8 @@ void create_random(int *table) {
     for (int i = 0; i < MAX; i++) {
         int ran = rand() % MAXNUMBER;
         table[i] = ran;
-    }
+        printf("%d, ", table[i]);
+    }  printf("\n");
 }
 
 void count_frequency(int *table, int *frequency) {

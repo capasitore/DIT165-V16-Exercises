@@ -4,7 +4,7 @@ Date: 2016-mm-dd
 Group Number: 33
 Members that contributed:
 Darja Linkova
-Pooria Balavi
+Pooriya Balavi
 Andreas Aronsson
 Demonstration code: [<Ass code 1-4> <abc>]
 Important , No code no bonus !

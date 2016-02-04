@@ -1,6 +1,6 @@
 /* ====================================
 File name: exerc_2_2.c (or cpp)
-Date: 2016-mm-dd
+Date: 2016-02-02
 Group Number: 33
 Members that contributed:
 Darja Linkova

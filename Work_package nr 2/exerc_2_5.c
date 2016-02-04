@@ -4,7 +4,7 @@ Date: 2016-01-27
 Group Number: 33
 Members that contributed:
 Darja Linkova
-Pooria Balavi
+Pooriya Balavi
 Andreas Aronsson
 Demonstration code: 85215
 Important , No code no bonus !

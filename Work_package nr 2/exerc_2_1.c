@@ -1,6 +1,19 @@
 #include <stdio.h>
 #include <string.h>
 
+/* ====================================
+File name: exerc_2_1.c (or cpp)
+Date: 2016-mm-dd
+Group Number: 33
+Members that contributed:
+Darja Linkova
+Pooriya Balavi
+Andreas Aronsson
+Demonstration code: 88085
+Important , No code no bonus !
+====================================== */
+
+
 
 // Write a program that reads in a string with max 20 characters
 // from stdin to a local string variable .

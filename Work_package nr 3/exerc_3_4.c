@@ -130,6 +130,8 @@ PERSON input_record(void) {
 
 void search() {
 
+
+	//if nothing is found returns to menu
 	int userInput = 0;
 	//char searchname[NAMEMAX];
 	char searchFor[20];
@@ -160,7 +162,7 @@ void search() {
 	default:
 		printf("Invalid input\nReturning to main menu\n");
 		looping = 0;
-	}
+	} looping = 0;
 	}
 
 }

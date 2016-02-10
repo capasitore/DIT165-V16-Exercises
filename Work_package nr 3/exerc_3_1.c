@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
+//code: 82878
 
 enum DIRECTION {N,O,S,W};
 
@@ -66,16 +66,16 @@ int main ()
 void move(int *xpos, int *ypos, enum DIRECTION *dir) {
 
 	if(*dir == N) {
-		*xpos += 1;
+		*ypos += 1;
 	}
 	if(*dir == O) {
-		*ypos += 1;
+		*xpos += 1;
 		}
 	if(*dir == S) {
-		*xpos -= 1;
+		*ypos -= 1;
 		}
 	if(*dir == W) {
-		*ypos -= 1;
+		*xpos -= 1;
 		}
 
 	return;

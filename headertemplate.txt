@@ -1,11 +1,11 @@
 /* ====================================
-File name: exerc_x_y.c (or cpp)
-Date: 2016-mm-dd
+File name: exerc_4_1.c (or cpp)
+Date: 2016-02-15
 Group Number: 33
 Members that contributed:
 Darja Linkova
 Pooriya Balavi
 Andreas Aronsson
-Demonstration code: [<Ass code 1-4> <abc>]
+Demonstration code: 
 Important , No code no bonus !
-====================================== */
+====================================== */ 

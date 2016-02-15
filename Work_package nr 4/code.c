@@ -1,12 +1,14 @@
-/*
- ============================================================================
- Name        : exerc_4_1.c
- Author      : 
- Version     :
- Copyright   : Your copyright notice
- Description : Hello World in C, Ansi-style
- ============================================================================
- */
+/* ====================================
+File name: exerc_4_1.c (or cpp)
+Date: 2016-02-15
+Group Number: 33
+Members that contributed:
+Darja Linkova
+Pooriya Balavi
+Andreas Aronsson
+Demonstration code: 
+Important , No code no bonus !
+====================================== */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -25,10 +27,9 @@ range	bits	name
 
 int main(int argc, char *argv[]) {
 	//if not 5 arguments
-
-	//unsigned char byte;
 	if (argc != 6) {
 		printf("Error, you need to enter 5 arguments\n");
+		return 1;
 	} else{
 
 		// check if number is out of range or negative
@@ -59,27 +60,14 @@ int main(int argc, char *argv[]) {
 		}
 		//end of argument checks
 
-		//main logic
-	/*	int a = 1;
-		int b = 2;
-		int c = 2;
-		int d = 1;
-		int e = 1;*/
+		// shift  bits accordingly
+		unsigned char packedValues = atoi(argv[1]) << 7 | atoi(argv[2]) << 4 | atoi(argv[3]) << 2 | atoi(argv[4]) << 1 | atoi(argv[5]);//merge
 
-		//int f = atoi(argv[1]);
-		//printf("Int f: %i", f);
-		//char y= a << 4| b << 3 | c << 2 | d << 1 | e;//merge
+		 // print binary
 
-		char y= atoi(argv[1]) << 1 | atoi(argv[2]) << 3 | atoi(argv[3]) << 2 | atoi(argv[4]) << 1 | atoi(argv[5]);//merge
-		printf("print as decimal: %i, as Hex %02x\n", y, y);
-
+		printf("\nPrint as hex: \n%02x\n", packedValues);
+		return 0;
 	}
 }
 
-/*uint8_t GetByteFromInts(const char eightBools[8])
-{
-   uint8_t ret = 0;
-   for (int i=0; i<8; i++) if (eightBools[i] == true) ret |= (1<<i);
-   return ret;
-}*/
 

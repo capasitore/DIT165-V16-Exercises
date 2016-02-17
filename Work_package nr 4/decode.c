@@ -1,12 +1,12 @@
 /* ====================================
-File name: exerc_4_2.c (or cpp)
+File name: decode.c (or cpp)
 Date: 2016-02-15
 Group Number: 33
 Members that contributed:
 Darja Linkova
 Pooriya Balavi
 Andreas Aronsson
-Demonstration code:
+Demonstration code: 81993
 Important , No code no bonus !
 ====================================== */
 
@@ -33,9 +33,12 @@ typedef struct {
 
 
 int main(int argc, char *argv[]) {
+
 	if (argc != 2) {
 			printf("Error, you need to enter 1 arguments\n");
 			return 1;
+
+			//if string length != 2
 		} else{
 
 			//base 16

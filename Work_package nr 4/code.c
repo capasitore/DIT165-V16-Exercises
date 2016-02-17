@@ -1,12 +1,12 @@
 /* ====================================
-File name: exerc_4_1.c (or cpp)
+File name: code.c (or cpp)
 Date: 2016-02-15
 Group Number: 33
 Members that contributed:
 Darja Linkova
 Pooriya Balavi
 Andreas Aronsson
-Demonstration code: 
+Demonstration code: 80931
 Important , No code no bonus !
 ====================================== */
 
@@ -61,11 +61,11 @@ int main(int argc, char *argv[]) {
 		//end of argument checks
 
 		// shift  bits accordingly
-		unsigned char packedValues = atoi(argv[1]) << 7 | atoi(argv[2]) << 4 | atoi(argv[3]) << 2 | atoi(argv[4]) << 1 | atoi(argv[5]);//merge
+		unsigned char packedValues = atoi(argv[1]) << 7 | atoi(argv[2]) << 4 | atoi(argv[3]) << 2 | atoi(argv[4]) << 1 | atoi(argv[5]);
 
 		 // print binary
 
-		printf("\nPrint as hex: \n%02x\n", packedValues);
+		printf("Print as hex: \n%02x\n", packedValues);
 		return 0;
 	}
 }
